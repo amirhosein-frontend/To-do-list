@@ -52,6 +52,7 @@ body {
   justify-content: center;
   padding: clamp(16px, 3vw, 40px);
   user-select: none;
+  overflow: hidden;
 }
 
 h1 {
@@ -62,8 +63,10 @@ h1 {
   letter-spacing: -0.02em;
   line-height: 1.1;
   text-align: center;
+  transform: scale(1.5);
+  box-sizing: border-box;
   font-size: clamp(24px, 3.2vw, 40px);
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
+  text-shadow: 0px 2px 14px rgba(147, 146, 146, 0.9);
 }
 
 .container {
