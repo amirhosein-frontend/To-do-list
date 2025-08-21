@@ -140,7 +140,7 @@ h1 {
   transform: translateY(0);
   box-shadow: 0 4px 10px rgba(37, 99, 235, 0.28);
 }
-÷ hr {
+hr {
   height: 1px;
   border: none;
   background: linear-gradient(
